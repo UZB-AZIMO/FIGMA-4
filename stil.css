@@ -1,0 +1,464 @@
+@font-face{
+    font-family:Orbitron-Bold ;
+    src: url("./font/Orbitron-Bold.woff");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Orbitron-Bold ;
+}
+.container{
+    width: 100%;
+    max-width: 1450px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    padding-left: 40px;
+display: flex;
+justify-content: space-between;
+position: relative;
+}
+.navbar__collection{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    cursor:pointer;  
+}
+.navbar__item{
+    margin-left: 100px;
+    color: white;
+}
+.navbar__item:hover{
+    color: gold;
+
+}
+
+.navbar__btn{
+    width: 155px;
+    height: 45px;
+    margin-left: 280px;
+    border-radius: 5px;
+    background-color: #57B8FF;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border: white solid 1px;
+    transition: 5s;
+}
+.navbar__btn:hover{
+    color: gold;
+    background-color: black;
+    border: gold solid 1px;
+    transform: translate(-50px,50px);
+
+}
+.hero{
+    position: absolute;
+}
+.oy{
+    margin-left: 140px;
+    width: 38px;
+    height: 38px;
+    margin-top: 10px;
+    margin-right: -270px;
+    background-color: #57B8FF;
+}
+
+.img__book{
+    display: flex;
+    width: 110%;
+}
+.black{
+    width: 770px;
+    height: 900px;
+    background-color: black;
+    padding-top: 180px;
+    color: white;
+  
+}
+.body{
+    padding: 40px;
+}
+.FUTURE{
+    color: #57B8FF;
+}
+.img__title{
+    width: 680px;
+    font-size: 72px;
+}
+
+.img__text{
+    width: 590px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.img__btn{
+    width: 200px;
+   height: 70px;
+padding: 10px 20px;
+background-color: #57B8FF;
+color: white;
+cursor: pointer;
+font-size: 20px;
+margin: 0 40px 0 0px;
+transition: 3s;
+}
+.img__btn:hover{
+    background-color: black;
+    border: none;
+    transform: rotateY(45deg);
+}
+.btn__bag{
+    margin-top: 50px;
+}
+.kontr{
+    background-color: #57B8FF;
+    padding-top: 200px;
+    margin-left: -40px;
+    width: 687px;
+    height: 900px;
+}
+.Rectangle{
+    width: 100%;
+    height: 570px;
+    background-color:#FDD04A ;
+}
+.Rectangle__title{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+}
+.Rectangle__hr{
+    padding-left: 605px;
+}
+.Rectangle__text{
+    width: 590px;
+    height: 57px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 400px;
+    font-size: 18px;
+    font-family:Orbitron-Bold ;
+}
+.Rectangle__foto{
+    margin-left: 40px;
+    gap: 20px;
+    
+}
+.Rectangle__btn{
+    border-radius: 10px;
+    width: 190px;
+    margin:40px 10px;
+    cursor: pointer;
+    transition: 5s;
+    border: none;
+}
+.Rectangle__btn:hover{
+    background-color: gold;
+    color: black;
+    border: none;
+    transform: translate(60px,-50px);
+}
+
+.shop{
+    width: 100%;
+    height: 1200px;
+    background: url("./assets/jankchilar\ treyos.png")  no-repeat center/cover ;object-fit: cover;
+}
+
+.little__text{
+    margin: auto;
+    color: #57B8FF;
+    font-size: 20px;
+    padding:  140px 560px 40px;
+}
+.shop__title{
+    width: 716px;
+    font-size: 65px;
+    text-align: center;
+    color: white;
+    margin-left: 330px;
+}
+
+.shop__text{
+    margin-top: 50px;
+    margin-left: 345px;
+    margin-bottom: 50px;
+    width: 700px;
+    font-size:20px ;
+    text-align: center;
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 45px;
+    margin-top: 90px;
+}
+.card{
+    width: 640px;
+    height: 210px;
+    border-radius: 5px;
+    background-color:
+    rgba(255, 255,255,0.15 );
+    color: white;
+    transition: 5s;
+}
+.card:hover{
+    transform: rotate(10deg);
+}
+.romp{
+    width: 30px;
+    height: 30px;
+    margin-left: -10px;
+}
+.card__title{
+    margin-left: 10px;
+    font-size: 32px;
+}
+.card__text{
+    margin-left: 40px;
+    width: 520px;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 30px;
+    color: #ddd;
+}
+.the__best{
+    height: 650px;
+    padding-top: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.the__title{
+    width: 740px;
+    font-size: 72px;
+    
+}
+.img__hr{
+margin-top: -90px;
+margin-left: 220px;
+z-index: 2;
+position: absolute;
+}
+.the__text{
+    margin-top: 50px;
+    width: 740px;
+    font-size: 20px;
+}
+.the__btn{
+    width: 200px;
+    height: 70px;
+    background-color: #57B8FF;
+    color: white;
+    font-size: 22px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 3s;
+}
+.the__btn:hover{
+    background-color: black;
+    color: #FDD04A;
+    border: none;
+    transform: translate(60px,-50px);
+}
+.img__logo{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.img__card{
+    width: 472px;
+height: 730px;
+    background: url("./assets/snayper.png")  no-repeat center/cover ;object-fit: cover;
+    transition: 4s;
+
+}
+.img__card:hover{
+    cursor: pointer;
+    transform: perspective(600PX)rotateY(30DEG);
+}
+.img__1-card{
+    width: 474px;
+height: 730px;
+    background: url("./assets/jangchilar\ jamos.png")  no-repeat center/cover ;object-fit: cover;
+    transition: 4s;
+    cursor: pointer;
+}
+.img__1-card:hover{
+    transform: perspective(600PX)rotateX(45DEG);
+}
+
+.img__2-card{
+    width: 472px;
+height: 730px;
+    background: url("./assets/tinch\ hudut.png")  no-repeat center/cover ;object-fit: cover;
+    transition: 4s;
+    cursor: pointer;
+}
+.img__2-card:hover{
+    transform: perspective(600PX)rotateY(-30DEG);
+}
+
+.card__img{
+    padding: 260px 150px 0;
+    
+}
+
+
+.card__item{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.Latest{
+    width: 100%;
+    height: 1300px;
+    background-color: black;
+}
+.Latest__body{
+    padding: 50px;
+}
+.Latest__title{
+    margin-top: 40px;
+    font-size: 64px;
+    width: 590px;
+    color: white;
+}
+.Latest__btn{
+    width: 175px;
+    margin-left: 1100px;
+    height: 70px;
+    background-color: #57B8FF;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 4s;
+    position: absolute;
+    margin-top: -50px;
+}
+.Latest__btn:hover{
+    background-color: black;
+    color: #FDD04A;
+    border: none;
+    transform: translate(30px,50px);
+}
+.game__img{
+    display: flex;
+    padding: 50px;
+    color: white;
+}
+.jostik__item{
+    color: #57B8FF;
+    margin: 40px  0 40px 0;
+}
+.jostik__title{
+    width: 590px;
+    font-size: 35px;
+}
+.gameing__img{
+    margin-left: 20px;
+    width: 850px;
+    height: 680px;
+}
+.game__body{
+    padding: 10px 40px 30px ;
+}
+.game__foto{
+    width: 510px;
+    height: 400px;
+    margin-left: 20px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.game__text{
+    margin-top: 140px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #57B8FF;
+}
+.game__title{
+    margin: 20px 0 20px 0;
+    width: 540px;
+    font-size: 45px;
+}
+.joni{
+    width:100%;
+    height: 730px;
+        background: url("./assets/orqa\ fon.png")  no-repeat center/cover ;object-fit: cover;
+        text-align: center;
+}
+.joni__title{
+    width: 900px;
+    font-size: 72px;
+    padding-top: 80px;
+margin-left: 250px;
+}
+.joni__hr{
+    width: 400px;
+margin-left: 300px;
+}
+.joni__text{
+    margin-top: 40px;
+    font-size: 18px;
+
+}
+.joni__item{
+    margin-top: 10px;
+    font-size: 18px;
+    width: 850px;
+    margin-left: 280px;
+}
+.input{
+    margin-top: 40px;
+    width: 450px;
+    height: 70px;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: 6s;
+}
+.input:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.joni__btn{
+    width: 200px;
+    height: 70px;
+    margin-left: -5px;
+    border: none;
+    background-color: #57B8FF;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 5s;
+
+}
+.joni__btn:hover{
+    border: none;
+    background-color: black;
+    color: #FDD04A;
+    border-radius: 10px;
+    transform: translate(-20px, 40px);
+}
+
+
+
+
+
+
